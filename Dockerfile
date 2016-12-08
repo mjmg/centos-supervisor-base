@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos/systemd:latest
 
 # Update System Image
 RUN \
@@ -18,6 +18,4 @@ RUN \
 # supervisor base configuration
 ADD supervisord.conf /etc/supervisor/supervisord.conf
 
-# Run bash
-# default command
 CMD ["/bin/bash"]
