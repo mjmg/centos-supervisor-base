@@ -1,4 +1,4 @@
-FROM centos/systemd:latest
+FROM centos:latest
 
 # Update System Image
 RUN \
