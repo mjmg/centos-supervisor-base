@@ -18,4 +18,4 @@ RUN \
 # supervisor base configuration
 ADD supervisord.conf /etc/supervisor/supervisord.conf
 
-CMD ["/usr/sbin/init"]
+CMD ["/bin/bash"]
