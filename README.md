@@ -1,2 +1,2 @@
 # centos-supervisor-base
-Base image based on latest FEDORA with supervisor
+Base image based on latest CENTOS with supervisor
