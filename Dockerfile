@@ -7,7 +7,7 @@ RUN \
 
 #install additional tools 
 RUN \
-  yum install -y unzip wget
+  yum install -y unzip wget mc
 
 # Configure Supervisor
 RUN \
