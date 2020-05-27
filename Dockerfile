@@ -1,5 +1,10 @@
 FROM centos:latest
 
+
+#Install EPEL
+RUN \
+  yum install -y epel-release
+  
 # Update System Image
 RUN \
   yum update -y && \
