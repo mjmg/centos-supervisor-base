@@ -11,8 +11,7 @@ RUN \
 
 # Configure Supervisor
 RUN \
-  yum install -y python-setuptools && \
-  easy_install supervisor && \
+  yum install -y supervisor && \
   mkdir -p /var/log/supervisor
 
 # supervisor base configuration
