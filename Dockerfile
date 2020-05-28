@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM registry.access.redhat.com/ubi8/ubi:latest
 
 
 #Install EPEL
